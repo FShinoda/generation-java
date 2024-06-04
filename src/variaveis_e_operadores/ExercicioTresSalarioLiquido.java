@@ -1,7 +1,7 @@
 package variaveis_e_operadores;
 
 import java.util.Scanner;
-
+ 
 public class ExercicioTresSalarioLiquido {
 
 	public static void main(String[] args) {

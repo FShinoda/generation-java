@@ -1,7 +1,7 @@
 package variaveis_e_operadores;
 
 import java.util.Scanner;
-
+ 
 public class ExercicioUmAbonoSalarial {
 
 	public static void main(String[] args) {
