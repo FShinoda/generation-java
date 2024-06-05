@@ -1,0 +1,30 @@
+5) Com base na tabela abaixo, escreva um algoritmo em Java que leia o código de um item (número inteiro de 1 a 6) e a quantidade comprada deste item (número inteiro). A seguir, mostre na tela o valor total da conta e o nome do produto que foi comprado.
+
+Código do Produto
+Produto
+Preço Unitário
+
+1
+Cachorro Quente
+R$ 10.00
+
+2
+X-Salada
+R$ 15.00
+
+3
+X-Bacon
+R$ 18.00
+
+4
+Bauru
+R$ 12.00
+
+5
+Refrigerante
+R$ 8.00
+
+6
+Suco de laranja
+R$ 13.00
+

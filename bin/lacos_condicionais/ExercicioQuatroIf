@@ -1,0 +1,17 @@
+4) Escreva um algoritmo em Java, que leia 3 palavras (String), que definem as características de um tipo de animal possível segundo o diagrama abaixo, que deve ser lido da esquerda para a direita.
+
+Vertebrado
+	Ave
+		Canívoro - Águia
+		Onívoro - Pomba
+	Mamífero
+		Onívoro - Homem
+		Herbívoro - Vaca
+	
+Invertebrado
+	Inseto
+		Hematófago - Pulga
+		Herbívoro - Lagarta
+	Anelídeo
+		Hematófago - Sanguessuga
+		Onívoro - Minhoca
