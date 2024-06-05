@@ -6,19 +6,21 @@ public class ExercicioTresSalarioLiquido {
 
 	public static void main(String[] args) {
 		float salarioLiquido, salarioBruto, adicionalNoturno, horasExtras, descontos;
-		Scanner input = new Scanner(System.in);
+		Scanner sc = new Scanner(System.in);
 		
 		System.out.print("Salário Bruto: ");
-		salarioBruto = input.nextFloat();
+		salarioBruto = sc.nextFloat();
 		
 		System.out.print("Adicional Noturno: ");
-		adicionalNoturno = input.nextFloat();
+		adicionalNoturno = sc.nextFloat();
 		
 		System.out.print("Horas Extras: ");
-		horasExtras = input.nextFloat();
+		horasExtras = sc.nextFloat();
 		
 		System.out.print("Descontos: ");
-		descontos = input.nextFloat();
+		descontos = sc.nextFloat();
+		
+		sc.close();
 		
 		salarioLiquido = salarioBruto + adicionalNoturno + (horasExtras*5) - descontos;
 		System.out.printf("Salário Líquido: %.2f", salarioLiquido);;

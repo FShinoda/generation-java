@@ -7,13 +7,15 @@ public class ExercicioUmAbonoSalarial {
 	public static void main(String[] args) {
 		float salario, abono, novoSalario;
 		
-		Scanner input = new Scanner(System.in);
+		Scanner sc = new Scanner(System.in);
 		
 		System.out.print("Salário: ");
-		salario = input.nextFloat();
+		salario = sc.nextFloat();
 		
 		System.out.print("Abono: ");
-		abono = input.nextFloat();
+		abono = sc.nextFloat();
+		
+		sc.close();
 		
 		novoSalario = salario + abono;
 		

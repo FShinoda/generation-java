@@ -6,19 +6,21 @@ public class ExercicioDoisMediaNotas {
 
 	public static void main(String[] args) {
 		float nota1, nota2, nota3, nota4, media;
-		Scanner input = new Scanner(System.in);
+		Scanner sc = new Scanner(System.in);
 		
 		System.out.print("Nota 1: ");
-		nota1 = input.nextFloat();
+		nota1 = sc.nextFloat();
 		
 		System.out.print("Nota 2: ");
-		nota2 = input.nextFloat();
+		nota2 = sc.nextFloat();
 		
 		System.out.print("Nota 3: ");
-		nota3 = input.nextFloat();
+		nota3 = sc.nextFloat();
 		
 		System.out.print("Nota 4: ");
-		nota4 = input.nextFloat();
+		nota4 = sc.nextFloat();
+		
+		sc.close();
 		
 		media = (nota1 + nota2 + nota3 + nota4) / 4;
 		System.out.printf("Média final: %.1f", media);
