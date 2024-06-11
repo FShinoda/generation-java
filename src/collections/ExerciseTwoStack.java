@@ -26,7 +26,7 @@ public class ExerciseTwoStack {
 					sc.nextLine();
 					System.out.print("\nType the book name: ");
 					String book = sc.nextLine();
-					stack.add(book);
+					stack.push(book);
 					showStack(stack);
 					System.out.println("\nBook Added!\n");
 					break;
